@@ -10,13 +10,32 @@ Live Deploy Link:- https://a6dubeycosmo.netlify.app/
         4. Object
     If the type is Object, it can have nested rows as well.
 # Features
-    1. Create such component
-    2. It should be able to render this interface if given in some data form.
-    3. User are able to edit name of a field
-    4. User are able to add more fields
-    5. User are able to delete a field
-    6. Users are able to add nested fields to object type.
-    7. There is a save button which console the updated data.
+    1. Seperate Components to handle inputs.
+    2. User are able to edit name of a field
+    3. User are able to add more fields
+    4. User are able to delete a field
+    5. Users are able to add nested fields to object type.
+    6. There is a save button which console the updated data.
+
+
+
+
+ In this app I have breakdown the problem in 3 components.
+ Component 1: Field.js :-
+    In this component we return an Input feild for form name and another Input for selecting type of the Form data.
+    It also have Delete buttton in it to Delete the entire form data in which Index it was clicked.
+    If we select form type ast the object then the ObjectField component will be rendered.
+    We can edit and handle the chanegs in the form data.
+
+ Component 2: ObjectField.js :-
+    This component will return a new subfields if in the parent Field we select type as object.
+    We can edit and delete the subfeilds and Parent field too.
+    We can add nested fields in objects and well and it can have multiple chains of nested fields inside it with different data type.
+
+Component 3: App.js :-
+
+    This component is the final component which will get return values of Field and ObjectField component form data. And this form data will be displayed to the Client.
+
 
 
 
