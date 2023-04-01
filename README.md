@@ -21,6 +21,7 @@ Live Deploy Link:- https://a6dubeycosmo.netlify.app/
 
 
  In this app I have breakdown the problem in 3 components.
+ 
  Component 1: Field.js :-
     In this component we return an Input feild for form name and another Input for selecting type of the Form data.
     It also have Delete buttton in it to Delete the entire form data in which Index it was clicked.
@@ -33,8 +34,7 @@ Live Deploy Link:- https://a6dubeycosmo.netlify.app/
     We can add nested fields in objects and well and it can have multiple chains of nested fields inside it with different data type.
 
 Component 3: App.js :-
-
-    This component is the final component which will get return values of Field and ObjectField component form data. And this form data will be displayed to the Client.
+    This component is the final component which will get return values of Field and ObjectField component form data. And this form data will be     displayed to the Client.
 
 
 
