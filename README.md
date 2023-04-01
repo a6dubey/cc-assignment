@@ -1,3 +1,30 @@
+Live Deploy Link:- https://a6dubeycosmo.netlify.app/
+
+
+    In this React app, users can add more fields by clicking the “Add Field”
+    icon, delete any field, define a type like `string`, `number` etc.
+    These are the types you should handle. 
+        1. String
+        2. Number 
+        3. Boolean 
+        4. Object
+    If the type is Object, it can have nested rows as well.
+# Features
+    1. Create such component
+    2. It should be able to render this interface if given in some data form.
+    3. User are able to edit name of a field
+    4. User are able to add more fields
+    5. User are able to delete a field
+    6. Users are able to add nested fields to object type.
+    7. There is a save button which console the updated data.
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
