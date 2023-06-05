@@ -7,7 +7,7 @@ Live Deploy Link:- https://a6dubeycosmo.netlify.app/
         1. String
         2. Number 
         3. Boolean 
-        4. Object
+        4. Object 
     If the type is Object, it can have nested rows as well.
 # Features
     1. Seperate Components to handle inputs.
